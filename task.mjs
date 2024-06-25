@@ -230,10 +230,10 @@
 //  console.log(valueArray)
 
 
-  //[*show a product whose price is greater than 2000
-  'MacBook Pro cost NRs. 100000 and its category is Laptops',
-  'Nike cost NRs. 5000 and its category is Running Shoes',
-  'Dell XPS cost NRs. 120000 and its category is Laptops' 
+  // show a product whose price is greater than 2000
+  // 'MacBook Pro cost NRs. 100000 and its category is Laptops',
+  // 'Nike cost NRs. 5000 and its category is Running Shoes',
+  // 'Dell XPS cost NRs. 120000 and its category is Laptops' 
 const products = [
 {
   id: 1,
@@ -281,7 +281,7 @@ const products = [
   isAvailable: true,
 },
 ];
-
+hsakjbcjkasbckja
 // only use filter and map
 let filtArrays=products.filter((a)=>{
   return a.price>2000;
@@ -292,3 +292,5 @@ let newArray=filtArrays.map((value,index)=>{
   return `${value.title} cost ${value.price} and it's catagory is ${value.category} `
 })
 console.log(newArray)
+
+

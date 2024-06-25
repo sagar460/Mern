@@ -8,15 +8,16 @@
 // });
 // console.log(list1)
 // let list = ["a","b","c","d","e"];
-// let output = list.filter((value, index)=>{
+// let output = list.filter((value, index)=> {
 //     if(value === "e"){
 //     return true;
 // }
 // else{
 //     return false;
-//     console.log(output)
-// };
-
+    
+// }
+// });
+// console.log(output)
 // let input = [1,2,3,6]
 // let output = input.filter((value,index)=>{
 //     if(value % 2 === 0){
